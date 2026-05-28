@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://c4saquxmtrq25"]
+
+[ext_resource type="AudioStream" uid="uid://cg3rq1wlfr35c" path="res://assets/music/نعد المشرفية والعوالي  المتنبي  إلقاء_ أسامة الواعظ.mp3" id="1_s2p0m"]
+
+[node name="music" type="AudioStreamPlayer2D"]
+stream = ExtResource("1_s2p0m")
+autoplay = true
