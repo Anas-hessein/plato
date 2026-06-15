@@ -1,14 +1,14 @@
-[gd_scene format=3 uid="uid://cdi0xhmt42veu"]
+[gd_scene format=3 uid="uid://cr5ljlq87c8pj"]
 
-[ext_resource type="FontFile" uid="uid://5iqj1q12jxoi" path="res://assets/fonts/PixelOperator8-Bold.ttf" id="2_8qs46"]
-[ext_resource type="Texture2D" uid="uid://bhbgy3grwrkib" path="res://assets/sprites/world_tileset.png" id="3_k4svw"]
-[ext_resource type="PackedScene" uid="uid://b3vvmt1lcbui5" path="res://seances/player.tscn" id="4_yv0jr"]
-[ext_resource type="PackedScene" uid="uid://cjrs2knran7ou" path="res://seances/killzone.tscn" id="5_2gm1v"]
-[ext_resource type="PackedScene" uid="uid://dsvd2flhmt8ak" path="res://seances/hud.tscn" id="5_8c2m1"]
-[ext_resource type="PackedScene" uid="uid://dujh1hhp51vak" path="res://seances/coin.tscn" id="6_4nluj"]
+[ext_resource type="FontFile" uid="uid://5iqj1q12jxoi" path="res://assets/fonts/PixelOperator8-Bold.ttf" id="2_j0lyg"]
+[ext_resource type="Texture2D" uid="uid://bhbgy3grwrkib" path="res://assets/sprites/world_tileset.png" id="3_ouro5"]
+[ext_resource type="PackedScene" uid="uid://b3vvmt1lcbui5" path="res://seances/player.tscn" id="4_5d2q6"]
+[ext_resource type="PackedScene" uid="uid://cjrs2knran7ou" path="res://seances/killzone.tscn" id="5_7b7e8"]
+[ext_resource type="PackedScene" uid="uid://dsvd2flhmt8ak" path="res://seances/hud.tscn" id="5_u0b3n"]
+[ext_resource type="PackedScene" uid="uid://dujh1hhp51vak" path="res://seances/coin.tscn" id="6_y67vo"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_o3d2x"]
-texture = ExtResource("3_k4svw")
+texture = ExtResource("3_ouro5")
 0:0/0 = 0
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 1:0/0 = 0
@@ -176,7 +176,7 @@ sources/1 = SubResource("TileSetAtlasSource_o3d2x")
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_psh65"]
 size = Vector2(14, 14)
 
-[node name="level_3" type="Node2D" unique_id=1001821647]
+[node name="level_5" type="Node2D" unique_id=1001821647]
 
 [node name="TileMap" type="TileMap" parent="." unique_id=2013404677]
 tile_set = SubResource("TileSet_1q7g6")
@@ -185,9 +185,9 @@ layer_0/name = "background"
 layer_0/tile_data = PackedInt32Array(-262115, 196609, 4, -196578, 262145, 5, -131042, 262145, 6, 1048576, 1, 9, 1114112, 1, 10, 1179648, 1, 11, 1245184, 1, 12, 1310720, 1, 13, 1441792, 1, 15, 1048577, 1, 9, 1114113, 1, 10, 1179649, 1, 11, 1245185, 1, 12, 1310721, 1, 13, 1441793, 1, 15, 1048578, 1, 9, 1114114, 1, 10, 1179650, 1, 11, 1245186, 1, 12, 1310722, 1, 13, 1441794, 1, 15, 1048579, 1, 9, 1114115, 1, 10, 1179651, 1, 11, 1245187, 1, 12, 1376259, 1, 14, 1441795, 1, 15, 1048580, 1, 9, 1114116, 1, 10, 1179652, 1, 11, 1245188, 1, 12, 1376260, 1, 14, 1441796, 1, 15, 1048581, 1, 9, 1114117, 1, 10, 1179653, 1, 11, 1245189, 1, 12, 1376261, 1, 14, 1441797, 1, 15, 1048582, 1, 9, 1114118, 1, 10, 1179654, 1, 11, 1245190, 1, 12, 1376262, 1, 14, 1441798, 1, 15, 1048583, 1, 9, 1114119, 1, 10, 1179655, 1, 11, 1245191, 1, 12, 1376263, 1, 14, 1441799, 1, 15, 1048584, 1, 9, 1114120, 1, 10, 1179656, 1, 11, 1245192, 1, 12, 1376264, 1, 14, 1441800, 1, 15, 1048585, 1, 9, 1114121, 1, 10, 1179657, 1, 11, 1245193, 1, 12, 1376265, 1, 14, 1441801, 1, 15, 1048586, 1, 9, 1114122, 1, 10, 1179658, 1, 11, 1310730, 1, 13, 1376266, 1, 14, 1441802, 1, 15, 1048587, 1, 9, 1114123, 1, 10, 1179659, 1, 11, 1310731, 1, 13, 1376267, 1, 14, 1441803, 1, 15, 1048588, 1, 9, 1114124, 1, 10, 1179660, 1, 11, 1310732, 1, 13, 1376268, 1, 14, 1441804, 1, 15, 1048589, 1, 9, 1114125, 1, 10, 1179661, 1, 11, 1310733, 1, 13, 1376269, 1, 14, 1441805, 1, 15, 1048590, 1, 9, 1114126, 1, 10, 1179662, 1, 11, 1310734, 1, 13, 1376270, 1, 14, 1441806, 1, 15, 1048591, 1, 9, 1114127, 1, 10, 1179663, 1, 11, 1310735, 1, 13, 1376271, 1, 14, 1441807, 1, 15, 1048592, 1, 9, 1114128, 1, 10, 1179664, 1, 11, 1310736, 1, 13, 1376272, 1, 14, 1441808, 1, 15, 1048593, 1, 9, 1114129, 1, 10, 1179665, 1, 11, 1310737, 1, 13, 1376273, 1, 14, 1441809, 1, 15, 983057, 1, 9, 983056, 1, 9, 983055, 1, 9, 983054, 1, 9, 983053, 1, 9, 983052, 1, 9, 983051, 1, 9, 983050, 1, 9, 983049, 1, 9, 983048, 1, 9, 983047, 1, 9, 983046, 1, 9, 983045, 1, 9, 983044, 1, 9, 983043, 1, 9, 983042, 1, 9, 983041, 1, 9, 983040, 1, 9, 1376256, 1, 14, 1376257, 1, 14, 1376258, 1, 14, 1310723, 1, 13, 1310724, 1, 13, 1310725, 1, 13, 1310726, 1, 13, 1310727, 1, 13, 1310728, 1, 13, 1310729, 1, 13, 1245194, 1, 12, 1245195, 1, 12, 1245196, 1, 12, 1245197, 1, 12, 1245198, 1, 12, 1245199, 1, 12, 1245200, 1, 12, 1245201, 1, 12)
 layer_1/name = "Layer1"
 layer_1/z_index = 1
-layer_1/tile_data = PackedInt32Array(1441792, 1, 0, 1441793, 1, 0, 1441794, 1, 0, 1441795, 1, 0, 1441796, 1, 0, 1441797, 1, 0, 1441798, 1, 0, 1441799, 1, 0, 1441800, 1, 0, 1441801, 1, 0, 1441802, 1, 0, 1441803, 1, 0, 1441804, 1, 0, 1441805, 1, 0, 1441806, 1, 0, 1441807, 1, 0, 1441808, 1, 0, 1376256, 1, 1, 1310720, 1, 1, 1245184, 1, 1, 1441809, 1, 0, 1376273, 1, 0, 1310737, 1, 0, 1245201, 1, 0, 1376272, 524289, 3)
+layer_1/tile_data = PackedInt32Array(1441792, 1, 0, 1441793, 1, 0, 1441794, 1, 0, 1441795, 1, 0, 1441796, 1, 0, 1441797, 1, 0, 1441798, 1, 0, 1376256, 1, 1, 1310720, 1, 1, 1245184, 1, 1, 1376272, 524289, 3, 1441799, 1, 0, 1441800, 1, 0, 1376264, 1, 0, 1310728, 1, 0, 1310729, 1, 0, 1310731, 1, 0, 1310732, 1, 0, 1376268, 1, 0, 1376269, 1, 0, 1376270, 1, 0, 1441806, 1, 0, 1441807, 1, 0, 1441808, 1, 0, 1441809, 1, 0, 1376273, 1, 0, 1310737, 1, 0, 1245201, 1, 0, 1179665, 1, 0)
 
-[node name="player" parent="." unique_id=521843939 instance=ExtResource("4_yv0jr")]
+[node name="player" parent="." unique_id=521843939 instance=ExtResource("4_5d2q6")]
 position = Vector2(30, 335)
 collision_layer = 3
 collision_mask = 3
@@ -200,7 +200,7 @@ limit_bottom = 110
 position_smoothing_enabled = true
 rotation_smoothing_enabled = true
 
-[node name="killzone" parent="." unique_id=1210274923 instance=ExtResource("5_2gm1v")]
+[node name="killzone" parent="." unique_id=1210274923 instance=ExtResource("5_7b7e8")]
 visible = false
 position = Vector2(26, 73)
 collision_layer = 3
@@ -210,9 +210,6 @@ collision_mask = 1
 position = Vector2(86, 301)
 shape = SubResource("WorldBoundaryShape2D_e0x2a")
 
-[node name="coin" parent="." unique_id=131120256 instance=ExtResource("6_4nluj")]
-position = Vector2(68, 333)
-
 [node name="exit" type="Area2D" parent="." unique_id=520689906]
 position = Vector2(259, 329)
 metadata/_edit_group_ = true
@@ -221,22 +218,30 @@ metadata/_edit_group_ = true
 position = Vector2(5, 16)
 shape = SubResource("RectangleShape2D_psh65")
 
-[node name="coin2" parent="." unique_id=2116119037 instance=ExtResource("6_4nluj")]
+[node name="coins" type="Node" parent="." unique_id=2017355582]
+
+[node name="coin3" parent="coins" unique_id=131120256 instance=ExtResource("6_y67vo")]
+position = Vector2(160, 296)
+
+[node name="coin" parent="coins" unique_id=1218325822 instance=ExtResource("6_y67vo")]
+position = Vector2(68, 333)
+
+[node name="coin2" parent="coins" unique_id=2116119037 instance=ExtResource("6_y67vo")]
 position = Vector2(224, 312)
 
-[node name="HUD" parent="." unique_id=2122390 instance=ExtResource("5_8c2m1")]
+[node name="HUD" parent="." unique_id=2122390 instance=ExtResource("5_u0b3n")]
 unique_name_in_owner = true
 
-[node name="CanvasLevel" type="CanvasLayer" parent="." unique_id=2130259715]
+[node name="CanvasLevel" type="CanvasLayer" parent="." unique_id=1944037458]
 
-[node name="level" type="Label" parent="CanvasLevel" unique_id=691397708]
+[node name="level" type="Label" parent="CanvasLevel" unique_id=65106434]
 z_index = 3
 offset_left = 994.0
 offset_top = 10.0
 offset_right = 1152.0
 offset_bottom = 34.0
 theme_override_colors/font_color = Color(1, 0.85490197, 0, 1)
-theme_override_fonts/font = ExtResource("2_8qs46")
+theme_override_fonts/font = ExtResource("2_j0lyg")
 theme_override_font_sizes/font_size = 24
-text = "Level 3"
+text = "Level 5"
 metadata/_edit_use_anchors_ = true

@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=3 uid="uid://dtibuwoix1hvt"]
+[gd_scene format=3 uid="uid://dtibuwoix1hvt"]
 
 [ext_resource type="Texture2D" uid="uid://jr7h0jpktwh" path="res://assets/sprites/slime_green.png" id="1_jbx16"]
 [ext_resource type="Script" uid="uid://c6u5ds5jtb1ab" path="res://scripts/enamey.gd" id="1_nspnm"]
@@ -41,29 +41,45 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_nspnm"]
-size = Vector2(10, 15)
+size = Vector2(10, 12)
 
-[node name="Enamey" type="Node2D"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_32vs7"]
+size = Vector2(10, 12)
+
+[node name="Enamey" type="CharacterBody2D" unique_id=825104599]
+collision_layer = 4
 script = ExtResource("1_nspnm")
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=366819663]
 position = Vector2(0, -15)
 sprite_frames = SubResource("SpriteFrames_jau1m")
 autoplay = "default"
 frame_progress = 0.248363
 
-[node name="killzone" parent="." instance=ExtResource("2_8ecbr")]
+[node name="killzone" parent="." unique_id=527861538 instance=ExtResource("2_8ecbr")]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="killzone"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="killzone" unique_id=589622104]
 position = Vector2(0, -9)
 shape = SubResource("RectangleShape2D_nspnm")
 
-[node name="RayCastRight" type="RayCast2D" parent="."]
+[node name="RayCastRight" type="RayCast2D" parent="." unique_id=512883829]
 position = Vector2(2, -10)
 rotation = -1.58827
 target_position = Vector2(-0.139787, 7.99878)
 
-[node name="RayCastLeft" type="RayCast2D" parent="."]
+[node name="RayCastLeft" type="RayCast2D" parent="." unique_id=331222214]
 position = Vector2(-2, -10)
 rotation = -1.58827
 target_position = Vector2(0.139786, -7.99878)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1922550577]
+position = Vector2(0, -9)
+shape = SubResource("RectangleShape2D_32vs7")
+
+[node name="RayCastFloorLeft" type="RayCast2D" parent="." unique_id=1755270832]
+position = Vector2(-7, -6)
+target_position = Vector2(0, 20)
+
+[node name="RayCastFloorRight" type="RayCast2D" parent="." unique_id=77473095]
+position = Vector2(7, -6)
+target_position = Vector2(0, 20)

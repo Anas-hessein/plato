@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://dsvd2flhmt8ak"]
+
+[ext_resource type="Script" uid="uid://d0j30tycidnap" path="res://scripts/hud.gd" id="1_ssfgu"]
+[ext_resource type="FontFile" uid="uid://5iqj1q12jxoi" path="res://assets/fonts/PixelOperator8-Bold.ttf" id="2_1t0wc"]
+
+[node name="HUD" type="CanvasLayer" unique_id=2122390]
+script = ExtResource("1_ssfgu")
+
+[node name="Score_Label" type="Label" parent="." unique_id=1731533264]
+anchors_preset = -1
+offset_left = 8.0
+offset_top = 8.0
+offset_right = 94.0
+offset_bottom = 16.0
+theme_override_colors/font_color = Color(0.96353203, 0.46022063, 0.14577958, 1)
+theme_override_fonts/font = ExtResource("2_1t0wc")
+theme_override_font_sizes/font_size = 24
+text = "Coins: 0"
+metadata/_edit_use_anchors_ = true
