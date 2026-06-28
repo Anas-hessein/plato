@@ -18,8 +18,20 @@ Plato is a 2D side scrolling platformer game. It has a 16 different levels with 
     <img width="270" alt="Screenshot 2026-06-15 153602" src="https://github.com/user-attachments/assets/e6999f10-43d7-40a5-9376-a6a1c90c4e97" />
 </div>
 
-## Demo Url
-https://anas-hessein.itch.io/plato
+## Getting Started
+ 
+### Play in Browser
+Head to **[itch.io](https://anas-hessein.itch.io/plato)** or **[newgrounds.com](https://www.newgrounds.com/portal/view/1039340)** and play instantly no installation needed.
+ 
+### Run Locally
+1. Clone the repository
+```bash
+   git clone https://github.com/your-username/plato.git
+```
+2. Open [Godot Engine](https://godotengine.org/download)
+3. Import the project folder
+4. Press **F5** or click **Play** to run
+---
 
 ## Built With
  
@@ -39,3 +51,4 @@ https://anas-hessein.itch.io/plato
 **Anas Hessein**
 - itch.io: [@anas-hessein](https://anas-hessein.itch.io)
 - Instagram: [@ans_hesein](https://www.instagram.com/ans_hesein/)
+- Newgrounds: [@AnasKilled](https://anaskilled.newgrounds.com/)
