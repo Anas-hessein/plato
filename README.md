@@ -4,11 +4,13 @@
 <div align="center">
 
 [![Hackatime](https://img.shields.io/badge/build-8h%2020m-brightgreen?style=plastic&logo=WakaTime&logoColor=white&label=Hackatime&labelColor=gray&color=blue&link=https%3A%2F%2Fhackatime.hackclub.com%2Fmy%2Fprojects%2Fplato)](https://hackatime.hackclub.com/my/projects/plato) [![Godot Engine](https://img.shields.io/badge/Godot%20Engine-478CBF?style=plastic&logo=godotengine&logoColor=white)](https://godotengine.org) <img src="https://img.shields.io/badge/License-MIT-green?style=flat" alt="MIT License"/>
-
 </div>
-<p align="center"> A 2D Platformer built with Godot Engine.</p>
+<p align="center"> A 2D Platformer Made By Anaskilled for Hackclub.</p>
 
 # About
+<p align="center">
+    Plato is a 2D side scrolling platformer game. It has a 16 different levels with increasing difficulty. Built only with Godot game engine. Each level adds something new until you realize you went from a walking simulator to fighting for your life — and you didn't even notice.
+</p>
 
 # ScreenShots
 <img width="1152" height="648" alt="Screenshot 2026-06-15 153537" src="https://github.com/user-attachments/assets/6c08316a-bb5e-43f3-b081-e30a5f25c67e" />
