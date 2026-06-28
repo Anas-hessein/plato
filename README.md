@@ -34,7 +34,7 @@ https://anas-hessein.itch.io/plato
 | Move Left | `A` |
 | Jump | `Space` |
 
-## 👤 Author
+# Author
  
 **Anas Hessein**
 - itch.io: [@anas-hessein](https://anas-hessein.itch.io)
