@@ -1,13 +1,13 @@
 
 <h1 align="center"> Plato </h1>
-<p align="center"> A 2D Platformer built with Godot Engine.</p>
-
 
 <p align="center">
-    <img alt="Hackatime Badge" src="https://img.shields.io/badge/build-8h%2020m-brightgreen?style=plastic&logo=WakaTime&logoColor=white&label=Hackatime&labelColor=gray&color=blue">
+    <object alt="Hackatime Badge" src="https://img.shields.io/badge/build-8h%2020m-brightgreen?style=plastic&logo=WakaTime&logoColor=white&label=Hackatime&labelColor=gray&color=blue&link=https%3A%2F%2Fhackatime.hackclub.com%2Fmy%2Fprojects%2Fplato">
 
 
 </p>
+
+<p align="center"> A 2D Platformer built with Godot Engine.</p>
 
 # About
 
