@@ -33,3 +33,8 @@ https://anas-hessein.itch.io/plato
 | Move Right | `D` |
 | Move Left | `A` |
 | Jump | `Space` |
+
+## 👤 Author
+ 
+**Anas Hessein**
+- itch.io: [@anas-hessein](https://anas-hessein.itch.io)
