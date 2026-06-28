@@ -21,8 +21,11 @@ Plato is a 2D side scrolling platformer game. It has a 16 different levels with 
 # Demo Url
 https://anas-hessein.itch.io/plato
 
-# Inspiration 
-I used a assets from [,,,](https://brackeysgames.itch.io/brackeys-platformer-bundle) and i learned frmo this tut (https://www.youtube.com/watch?v=LOhfqjmasi0)
+# Built With
+ 
+- **[Godot Engine](https://godotengine.org/)** — Game framework
+- **[Brackeys Platformer Bundle](https://brackeysgames.itch.io/brackeys-platformer-bundle)** — Art assets
+- **[Brackeys Godot Tutorial](https://www.youtube.com/watch?v=LOhfqjmasi0)** — Learning reference
 
 # Controls
 | Action | Key |
