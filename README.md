@@ -25,5 +25,8 @@ https://anas-hessein.itch.io/plato
 I used a assets from [,,,](https://brackeysgames.itch.io/brackeys-platformer-bundle) and i learned frmo this tut (https://www.youtube.com/watch?v=LOhfqjmasi0)
 
 # Controls
-RIGHT : D || LEFT : A || JUMP : space bar
-
+| Action | Key |
+|--------|-----|
+| Move Right | `D` |
+| Move Left | `A` |
+| Jump | `Space` |
