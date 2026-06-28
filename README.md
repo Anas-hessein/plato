@@ -3,9 +3,7 @@
 
 <div align="center">
 
-[![Hackatime](https://img.shields.io/badge/build-8h%2020m-brightgreen?style=plastic&logo=WakaTime&logoColor=white&label=Hackatime&labelColor=gray&color=blue&link=https%3A%2F%2Fhackatime.hackclub.com%2Fmy%2Fprojects%2Fplato)](https://hackatime.hackclub.com/my/projects/plato) [![Godot Engine](https://img.shields.io/badge/Godot%20Engine-478CBF?style=plastic&logo=godotengine&logoColor=white)](https://godotengine.org)
-
-<img src="https://img.shields.io/badge/License-MIT-green?style=flat" alt="MIT License"/>
+[![Hackatime](https://img.shields.io/badge/build-8h%2020m-brightgreen?style=plastic&logo=WakaTime&logoColor=white&label=Hackatime&labelColor=gray&color=blue&link=https%3A%2F%2Fhackatime.hackclub.com%2Fmy%2Fprojects%2Fplato)](https://hackatime.hackclub.com/my/projects/plato) [![Godot Engine](https://img.shields.io/badge/Godot%20Engine-478CBF?style=plastic&logo=godotengine&logoColor=white)](https://godotengine.org) <img src="https://img.shields.io/badge/License-MIT-green?style=flat" alt="MIT License"/>
 
 </div>
 <p align="center"> A 2D Platformer built with Godot Engine.</p>
