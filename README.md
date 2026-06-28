@@ -4,7 +4,8 @@
 
 
 <p align="center">
-  <img alt="hackatime Badge" src="https://img.shields.io/badge/build-8h%2020m-brightgreen?style=plastic&logo=WakaTime&logoColor=white&label=Hackatime&labelColor=black&color=blue">
+    <img alt="Hackatime Badge" src="https://img.shields.io/badge/build-8h%2020m-brightgreen?style=plastic&logo=WakaTime&logoColor=white&label=Hackatime&labelColor=gray&color=blue">
+
 
 </p>
 
