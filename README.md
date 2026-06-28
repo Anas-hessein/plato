@@ -8,9 +8,8 @@
 <p align="center"> A 2D Platformer Made By Anaskilled for Hackclub.</p>
 
 # About
-<p align="center">
-    Plato is a 2D side scrolling platformer game. It has a 16 different levels with increasing difficulty. Built only with Godot game engine. Each level adds something new until you realize you went from a walking simulator to fighting for your life — and you didn't even notice.
-</p>
+
+Plato is a 2D side scrolling platformer game. It has a 16 different levels with increasing difficulty. Built only with Godot game engine. Each level adds something new until you realize you went from a walking simulator to fighting for your life — and you didn't even notice.
 
 # ScreenShots
 <img width="1152" height="648" alt="Screenshot 2026-06-15 153537" src="https://github.com/user-attachments/assets/6c08316a-bb5e-43f3-b081-e30a5f25c67e" />
