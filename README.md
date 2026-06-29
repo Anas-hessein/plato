@@ -35,9 +35,9 @@ Head to **[itch.io](https://anas-hessein.itch.io/plato)** or **[newgrounds.com](
 
 ## Built With
  
-- **[Godot Engine](https://godotengine.org/)** — Game framework
-- **[Brackeys Platformer Bundle](https://brackeysgames.itch.io/brackeys-platformer-bundle)** — Art assets
-- **[Brackeys Godot Tutorial](https://www.youtube.com/watch?v=LOhfqjmasi0)** — Learning reference
+- **[Godot Engine](https://godotengine.org/)** : Game framework
+- **[Brackeys Platformer Bundle](https://brackeysgames.itch.io/brackeys-platformer-bundle)** : Art assets
+- **[Brackeys Godot Tutorial](https://www.youtube.com/watch?v=LOhfqjmasi0)** : Learning reference
 
 ## Controls
 | Action | Key |
